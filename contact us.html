@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.header {
+
+
+    width: 100%;
+  
+    padding: 15px 0;
+    text-align: left;
+    z-index: 1000;
+    margin: 30px 0 ;
+}
+
+.header a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 37px;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.header a:hover {
+    color: #f39c12;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    background: #111;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-section {
+    width: 50%;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-section {
+    width: 50%;
+    padding: 40px;
+    text-align: left;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.name-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.name-fields input {
+    width: 50%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    background: #222;
+    border: 1px solid #444;
+    color: #fff;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #bbb;
+}
+
+    </style>
+</head>
+<body>
+    <div class="header pt-5 ps-5">
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Work</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="container">
+        <div class="image-section">
+            <img src="./pictures/See the last pic if the 1st pic didn't load Happy chocolate day sammu   @samantharuthprabhuoffl White .jpg" alt="Contact Image">
+        </div>
+        <div class="form-section">
+            <h1>LET'S WORK TOGETHER!</h1>
+            <p>SEND ME A MESSAGE DOWN BELOW!</p>
+
+            <form>
+                <div class="input-group">
+                    <label>Name (required)</label>
+                    <div class="name-fields">
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>Email Address (required)</label>
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Subject (required)</label>
+                    <input type="text" placeholder="Your Subject" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Message (required)</label>
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
